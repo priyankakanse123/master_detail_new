@@ -13,6 +13,10 @@
 		0A3EDB461C228ECE00156974 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3EDB441C228ECE00156974 /* MainMenu.xib */; };
 		0A3EDB511C228ECE00156974 /* master_detail_newTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDB501C228ECE00156974 /* master_detail_newTests.m */; };
 		0A3EDB5C1C228ECE00156974 /* master_detail_newUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDB5B1C228ECE00156974 /* master_detail_newUITests.m */; };
+		0A3EDB6B1C228F9800156974 /* ProductData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDB6A1C228F9800156974 /* ProductData.m */; };
+		0A3EDB6E1C22909D00156974 /* ProductListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDB6D1C22909D00156974 /* ProductListData.m */; };
+		0A3EDB711C22926F00156974 /* MasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDB701C22926F00156974 /* MasterController.m */; };
+		0A3EDB741C22B57C00156974 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDB731C22B57C00156974 /* DetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,14 @@
 		0A3EDB571C228ECE00156974 /* master_detail_newUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = master_detail_newUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3EDB5B1C228ECE00156974 /* master_detail_newUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = master_detail_newUITests.m; sourceTree = "<group>"; };
 		0A3EDB5D1C228ECE00156974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3EDB691C228F1C00156974 /* ProductData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductData.h; sourceTree = "<group>"; };
+		0A3EDB6A1C228F9800156974 /* ProductData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductData.m; sourceTree = "<group>"; };
+		0A3EDB6C1C22905800156974 /* ProductListData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListData.h; sourceTree = "<group>"; };
+		0A3EDB6D1C22909D00156974 /* ProductListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListData.m; sourceTree = "<group>"; };
+		0A3EDB6F1C22924F00156974 /* MasterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterController.h; sourceTree = "<group>"; };
+		0A3EDB701C22926F00156974 /* MasterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterController.m; sourceTree = "<group>"; };
+		0A3EDB721C22B47C00156974 /* DetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		0A3EDB731C22B57C00156974 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,14 @@
 				0A3EDB441C228ECE00156974 /* MainMenu.xib */,
 				0A3EDB471C228ECE00156974 /* Info.plist */,
 				0A3EDB3F1C228ECE00156974 /* Supporting Files */,
+				0A3EDB691C228F1C00156974 /* ProductData.h */,
+				0A3EDB6A1C228F9800156974 /* ProductData.m */,
+				0A3EDB6C1C22905800156974 /* ProductListData.h */,
+				0A3EDB6D1C22909D00156974 /* ProductListData.m */,
+				0A3EDB6F1C22924F00156974 /* MasterController.h */,
+				0A3EDB701C22926F00156974 /* MasterController.m */,
+				0A3EDB721C22B47C00156974 /* DetailController.h */,
+				0A3EDB731C22B57C00156974 /* DetailController.m */,
 			);
 			path = master_detail_new;
 			sourceTree = "<group>";
@@ -263,6 +283,10 @@
 			files = (
 				0A3EDB411C228ECE00156974 /* main.m in Sources */,
 				0A3EDB3E1C228ECE00156974 /* AppDelegate.m in Sources */,
+				0A3EDB741C22B57C00156974 /* DetailController.m in Sources */,
+				0A3EDB6B1C228F9800156974 /* ProductData.m in Sources */,
+				0A3EDB711C22926F00156974 /* MasterController.m in Sources */,
+				0A3EDB6E1C22909D00156974 /* ProductListData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
